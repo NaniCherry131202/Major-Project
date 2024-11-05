@@ -141,7 +141,6 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     display: none;
-    /* Make sure it's hidden by default */
     max-width: 400px;
     width: 100%;
     text-align: center;
@@ -187,16 +186,13 @@ h1 {
 
 .star {
     font-size: 30px;
-    /* Adjust size as needed */
     color: lightgray;
-    /* Default color */
     cursor: pointer;
     transition: transform 0.2s;
 }
 
 .star.filled {
     color: gold;
-    /* Color for filled stars */
 }
 
 .star:hover {
@@ -231,5 +227,4 @@ button:hover {
     margin-top: 20px;
     font-weight: bold;
     color: #28a745;
-    /* Green color for success message */
 }
